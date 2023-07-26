@@ -1,0 +1,24 @@
+.complain{
+    margin-top: 50px;
+}
+.complain__content{
+    width: 55%;
+    margin: auto;
+}
+.complain__content select option{
+    font-size: 20px;
+}
+.complain__button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width:760px) {
+    .complain__content{
+        width: 90%;
+    }
+    .complain{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}

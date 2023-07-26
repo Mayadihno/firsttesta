@@ -1,0 +1,52 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.card__login{
+    border: 1px solid #347222 !important;
+}
+.card__login h3{
+   padding-top: 25px;
+   padding-left: 20px;
+   font-size: 20px;
+   line-height: 30px;
+   color: #347222;
+   font-weight: 500;
+}
+.card__login .input1 ,.input2{
+    padding-bottom: 15px;
+}
+.card__login input{
+    border: 1px solid #347222;
+    background-color: #F4FCFF;
+    font-family: 'Inter', sans-serif;
+}
+.card__login input::placeholder{
+    color: #347222;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+.forget{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: #347222;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: #ef3a03db !important;
+}
+ @media screen and (max-width:760px) {
+    .login__content{
+        width: 95%;
+        margin: auto;
+    }
+    .button button{
+        width: 350px;
+    }
+}

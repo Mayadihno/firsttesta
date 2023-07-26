@@ -1,0 +1,40 @@
+.home__content{
+    width: 80%;
+    margin: auto;
+}
+.home__grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+}
+.home{
+    margin-top: 100px;
+}
+.home__grid i{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    
+}
+.home__grid h2{
+    color: white;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:760px){
+    .home__grid{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+    }
+    .home__content{
+        width: 95%;
+    }
+    .home{
+        margin-top: 80px;
+    }
+}
