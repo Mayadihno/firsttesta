@@ -103,9 +103,13 @@
         width: 95%;
     }
     .test{
-        margin-top: 150px;
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
     .card__test{
         width: 100%;
+    }
+    .payment h3{
+        font-size: 14px;
     }
 }
